@@ -2,15 +2,13 @@
     <string name="app_name">SupCooking</string>
 
     <!-- Strings related to login -->
-    <string name="prompt_email">Email</string>
+    <string name="prompt_username">Username</string>
     <string name="prompt_password">Mot de passe</string>
-    <string name="action_sign_in">Se connecter ou s\'enregistrer</string>
-    <string name="action_sign_in_short">Se connecter</string>
-    <string name="error_invalid_email">L\'adresse email est invalide</string>
+    <string name="action_sign_in">Se connecter</string>
+    <string name="action_sign_up">S'enregistrer</string>
+    <string name="error_invalid_username">L\'identifiant est invalide</string>
     <string name="error_invalid_password">Le mot de passe est trop court</string>
     <string name="error_incorrect_password">Le mot de passe est incorrect</string>
     <string name="error_field_required">Ce champs est obligatoire</string>
-    <string name="permission_rationale">"Contacts permissions are needed for providing email
-        completions."
-    </string>
+    <string name="error_server_request">Une erreur s\'est produite lors de la connexion avec le serveur</string>
 </resources>

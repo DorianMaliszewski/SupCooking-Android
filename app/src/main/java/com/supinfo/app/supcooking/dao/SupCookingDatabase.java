@@ -7,7 +7,7 @@ import android.content.Context;
 
 import com.supinfo.app.supcooking.models.User;
 
-@Database(entities = {User.class}, version = 1)
+@Database(entities = {User.class}, version = 1, exportSchema = false)
 public abstract class SupCookingDatabase extends RoomDatabase {
 
     public abstract UserDao userDao();
